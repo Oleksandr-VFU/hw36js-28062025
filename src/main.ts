@@ -40,13 +40,13 @@ console.log(sumArray([])) // Повинно вивести 0
  */
 
 type User = {
-  name: string;
-  age: number;
-  isActive?: boolean;
+  name: string
+  age: number
+  isActive: boolean
 }
 
 function createUser(name: string, age: number, isActive: boolean = true): User {
-  return { name, age, isActive }
+  return {name, age, isActive}
 }
 
 const newUser = createUser('Анна', 25, true)
